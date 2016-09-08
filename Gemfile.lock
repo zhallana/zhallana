@@ -74,6 +74,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (>= 0.0.2)
       mime-types
+    pg (0.18.4-x86-mingw32)
     polyglot (0.3.5)
     rack (1.4.7)
     rack-cache (1.6.1)
@@ -90,6 +91,11 @@ GEM
       activesupport (= 3.2.22.4)
       bundler (~> 1.0)
       railties (= 3.2.22.4)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (3.2.22.4)
       actionpack (= 3.2.22.4)
       activesupport (= 3.2.22.4)
@@ -130,7 +136,9 @@ DEPENDENCIES
   browsercms (= 3.5.7)
   coffee-rails (~> 3.2.1)
   jquery-rails
+  pg
   rails (= 3.2.22.4)
+  rails_12factor
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
